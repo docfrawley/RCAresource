@@ -1,0 +1,929 @@
+body {
+	background:#333;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color:#CCC;
+}
+
+#greeting {
+	position:absolute;
+	font-size:16px;
+	top:30%;
+	left:50%;
+	}
+
+#generalposition {
+	position:relative;
+	font-size:16px;
+	top:5%;
+	left:25%;
+	}
+
+#expensestop {
+	background-image: url(../images/rcalogintop.png);
+	position:absolute;
+	left: 5%;
+	top: 20px;
+	height:108px;
+	width:1000px;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+#logouttop {
+	background-image: url(../images/rcalogout.png);
+	position:absolute;
+	left: 5%;
+	top: 20px;
+	height:108px;
+	width:1000px;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+
+
+#homemid {
+	position:absolute;
+	left: 5%;
+	top:128px;
+	background-image:url(../images/middlerca.png);
+	width:1000px;
+	background-repeat:repeat-y;
+	margin-top:0%;
+	}
+
+#expensetable {
+	position:relative;
+	left:0%;
+	top:0%;
+	font-size:12px;
+	}
+
+#inservicetable {
+	position:relative;
+	left:0%;
+	top:0%;
+	font-size:12px;
+	}	
+	
+#inserviceform {
+	position:relative;
+	left:0%;
+	top:0%;
+	font-size:14px;
+	}	
+
+#menuspace {
+	position:relative;
+	float:left;
+	top:30%;
+	left:30%;
+	background-image:url(../images/spacer.png);
+	height:170px;
+	width:19px;
+	}	
+	
+#initialform {
+	background-image: url(../images/rcaloginsection.png);
+	width:267px;
+	height:189px;
+	float:left;
+	position:relative;
+	left:20%;
+	}
+
+DIV#loginalign {
+	position:absolute;
+	left: 30%;
+	top:12%;
+	width:260px;
+	z-index:100;
+	}
+	
+DIV#logintop {
+	float:left;
+	height:21px;
+	width:260px;
+	background-image:url(../images/topbubble.png);
+	z-index:100;
+	 }
+	 
+DIV#loginbot {
+	float:left;
+	height:54px;
+	width:260px;
+	margin-top:0%;
+	background-image:url(../images/bottombubble.png);
+	z-index:100;
+	 }	 
+	
+DIV#loginmid {
+	float:left;
+	width:260px;
+	padding-left:20px;
+	background-image:url(../images/midbubble.png);
+	background-repeat:repeat-y;
+	margin-top:0%;
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#000;
+	font-size:14px;
+	z-index:100;
+	}
+
+	
+#loginform {
+	position:absolute;
+	background-image:url(../images/loginform.png);
+	height:146px;
+	width:250px;
+	background-repeat:no-repeat;
+	left:620px;
+	top:140px;
+	z-index:500;
+	padding-top:10px;
+	padding-left:20px;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#000;
+	}	
+		
+
+DIV#squirrel {
+	position:absolute;
+	top:20px;
+	left:100px;
+	height:252px;
+	width: 225px;
+	background-image:url(../images/squirrel.PNG);
+	background-repeat:no-repeat;
+}
+
+DIV#initialacorn {
+	position:absolute;
+	top:135px;
+	left:470px;
+	background-image:url(../images/acorn.png);
+	background-repeat:no-repeat;
+	height:89px;
+	width:75px;
+}
+
+
+DIV#namesite {
+	position:absolute;
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:36px;
+	background-color:#333;
+	font-weight:bolder;
+	top:0px;
+	left:0px;
+	margin-top:10px;
+	margin-left:10px;
+	height:60px;
+	width:690px;
+	padding-left:15px;
+	padding-top:10px;
+	padding-right:15px;
+	z-index:500;
+}
+
+
+
+#topbanner {
+	position:absolute;
+	top:0px;
+	left:0px;
+	margin:0px;
+	padding:0px;
+	background-color:#000;
+	width:100%;
+	height:90px;
+}
+
+DIV#workarea {
+	position:absolute;
+	left:330px;
+	top:90px;
+	background-color:#000;
+	width:1000px;
+	height:1000px;
+	overflow:auto;
+}
+DIV#workarearelative {
+	position:relative;
+	left:0px;
+	top:0px;
+	width:1000px;
+	height:1000px;
+	overflow:auto;
+}
+
+
+#evenrow {
+	background-color:#000;
+}
+#oddrow {
+	background-color:#333;
+}
+
+DIV#menulow{
+	position:absolute;
+	top: 200px;
+	left:100px;
+}
+
+DIV#llmenu {
+	display: block;
+	height:25px;
+	width:206px;
+	padding-top:8px;
+	padding-left:6px;
+	border-bottom-color:	#D5D8D9;
+	border-bottom-style:dotted;
+	border-bottom-width:2px;
+	background-image:url(../images/orange%20arrow.png);
+	background-repeat:no-repeat;
+	background-position:left;
+}
+
+DIV#llmenuthere {
+	display: block;
+	height:25px;
+	width:200px;
+	color:: #FFF;
+	font-weight:bold;
+	padding-top:8px;
+	border-bottom-color:	#D5D8D9;
+	border-bottom-style:dotted;
+	border-bottom-width:2px;
+}
+DIV#llmspace {
+	float:left;
+	padding-left:5px;
+}
+
+DIV#llmenunone {
+	float:left;
+	height:25px;
+	width:200px;
+	padding-top:8px;
+}
+
+#llmenunone a {
+	display:block;
+	float:left;
+	padding-left:5px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:	#F89422;
+	text-decoration:none;
+}
+
+#llmenunone a:hover {
+	color:#D5D8D9;
+	display:block;
+}
+
+
+#arrowplace {
+	float:left;
+	margin-top:5px;
+	display:inline;
+}
+	
+#llmenu a {
+	display:block;
+	float:left;
+	padding-left:5px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:	#F89422;
+	text-decoration:none;
+}
+
+#llmenu a:hover {
+	color:#D5D8D9;
+	display:block;
+}
+
+DIV#admintable {
+	float:left;
+	width:500px;
+	display:block;
+	margin-top:0px;
+	margin-left:100px;
+}
+
+DIV#admintable a {
+	color:	#F89422;
+	text-decoration:none;
+}
+
+DIV#admintable a:hover {
+	color:#D5D8D9;
+}
+DIV#admintable td {
+	height:20px;
+	width: 200px;
+}
+
+DIV#admintable2 {
+	float:left;
+	width:740px;
+	display:block;
+	margin-top:30px;
+	margin-left:20px;
+}
+
+DIV#admintable2 a {
+	color:	#F89422;
+	text-decoration:none;
+}
+
+DIV#admintable2 a:hover {
+	color:#D5D8D9;
+}
+DIV#admintable2 td {
+	width:185px;
+	margin-top:10px;
+	text-align:left;
+	padding-left:5px;
+}
+
+.adminmessage {
+	float:left;
+	display:block;
+	width:900px;
+	margin-top:20px;
+	margin-left:75px;
+}
+
+.adminmessage a {
+	text-decoration:none;
+	color:#F93;
+}
+
+.adminmessage a:hover {
+	text-decoration:none;
+	color:#CCC;
+}
+
+.adminmessage2 {
+	float:left;
+	width:600px;
+	display:block;
+	margin-top:50px;
+	margin-left:100px;
+}
+#adminmessage3 {
+	float:left;
+	width:600px;
+	display:block;
+	margin-top:50px;
+	margin-left:100px;
+	line-height:30px;
+}
+
+.adminmessage4 {
+	float:left;
+	width:600px;
+	display:block;
+	margin-top:75px;
+	margin-left:100px;
+	line-height:30px;
+}
+
+.adminmessage4 a {
+	color:	#F89422;
+	text-decoration:none;
+}
+
+.adminmessage4 a:hover {
+	color:#D5D8D9;
+}
+
+.adminmessage5 {
+	position:absolute;
+	width:540px;
+	top:45px;
+	left:40px;
+	height:380px;
+	overflow:auto;
+}
+DIV#titlestuff {
+	position:absolute;
+	font-size:24px;
+	font-weight:bold;
+	top:20px;
+	left:40px;
+	height:30px;
+}
+
+.adminmessage55 {
+	position:absolute;
+	width:540px;
+	top:490px;
+	left:40px;
+	height:410px;
+	overflow:auto;
+}
+
+DIV#titlestuff22 {
+	position:absolute;
+	font-size:24px;
+	font-weight:bold;
+	top:460px;
+	left:40px;	
+	height:30px;
+}
+
+
+
+.adminmessage6 {
+	position:absolute;
+	width:370px;
+	height: 410px;
+	top:20px;
+	left:595px;
+	background-color:#333;
+	padding:5px;
+		
+}
+
+.adminmessage6 a {
+	text-decoration:none;
+	color:#F90;
+}
+
+.adminmessage6 a:hover {
+	text-decoration:none;
+	color:#FFF;
+}
+
+.adminmessage66 {
+	position:absolute;
+	width:370px;
+	height:410px;
+	top:460px;
+	left:595px;
+	background-color:#333;
+	padding:5px;
+		overflow:auto;
+}
+
+.adminmessage66 a {
+	text-decoration:none;
+	color:#F90;
+}
+
+.adminmessage66 a:hover {
+	text-decoration:none;
+	color:#FFF;
+}
+
+.adminmessage67 {
+	position:absolute;
+	width:370px;
+	height:450px;
+	top:20px;
+	left:595px;
+	background-color:#333;
+	padding:10px;
+}
+
+.adminmessage67 a {
+	text-decoration:none;
+	color:#F90;
+}
+
+.adminmessage67 a:hover {
+	text-decoration:none;
+	color:#FFF;
+}
+
+
+
+
+DIV#calenderwork {
+	position:relative;
+	
+}
+
+#oncallpdf {
+	position:absolute;
+	top: 700px;
+	left:50px;
+
+}
+
+#oncallpdf a {
+	font-weight:bold;
+	text-align:center;
+	padding:15px;
+	color:#000;
+	background-color: #F89422;
+	text-decoration:none;
+}
+
+#oncallpdf a:hover {
+	color:#666;
+	font-weight:bold;
+}
+
+#acornarea {
+	float:left;
+	height:15px;
+	width:75px;
+	padding:0px;
+	margin:0px;
+}
+
+.indacorn {
+	float:left;
+	height:15px;
+	width:13px;
+	padding:0px;
+	margin-right:4px;
+}
+#videoarea {
+	position:absolute;
+	top: 400px;
+	left:400px;
+	z-index:50;
+}
+
+.Butlerbackground {
+	background-color:#36C;
+	margin:5px;
+	padding:5px;
+	width:500px;
+	float:left;
+	display:block;
+}
+.Forbesbackground {
+	background-color:#F03;
+		margin:5px;
+	padding:5px;
+	width:500px;
+	float:left;
+	display:block;
+}
+.Matheybackground {
+	background-color:#C03;
+		margin:5px;
+	padding:5px;
+	width:500px;
+	float:left;
+	display:block;
+}
+.Rockybackground {
+	background-color:#093;
+		margin:5px;
+	padding:5px;
+	width:500px;
+	float:left;
+	display:block;
+}
+.Whitmanbackground {
+	background-color:#39F;
+		margin:5px;
+	padding:5px;
+	width:500px;
+	float:left;
+	display:block;
+}
+.Wilsonbackground {
+	background-color:#3CF;
+		margin:5px;
+	padding:5px;
+	width:500px;
+	float:left;
+	display:block;
+}
+.Allbackground {
+	background-color:#F89422;
+		margin:5px;
+	padding:5px;
+	width:500px;
+	float:left;
+	display:block;
+}
+
+
+
+.titlestuff2 {
+	float:left;
+	display:block;
+	font-size:20px;
+	font-weight:bold;
+}
+.insidetitle {
+	text-align:left;
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+}
+
+.insidetitle a {
+	text-decoration:none;
+	color:#FFF;
+}
+
+.insidetitle a:hover {
+	text-decoration:none;
+	color:#999;
+}
+.insideannounce {
+	text-align:left;
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	padding-left:10px;
+}
+
+#littleguy {
+	float:right;
+	font-size:12px;
+}
+
+#accordian {
+	position:absolute;
+	width:800px;
+	top:145px;
+	left:40px;
+	overflow:auto;
+		
+}
+
+.topnav {
+    width: 800px;
+    padding: 40px 28px 25px 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+ 
+ul.topnav {
+    padding: 0;
+    margin: 0;
+	font-size:14px;
+    list-style: none;
+}
+ 
+ul.topnav li {}
+ 
+ul.topnav li a {
+    line-height: 15px;
+    font-size: 18px;
+    padding: 10px 5px;
+    color: #F90;
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+ 
+ul.topnav li a:hover {
+    background-color:#999;
+    color:#FFF;
+}
+ 
+ul.topnav ul {
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+ 
+ul.topnav ul li {
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+ 
+ul.topnav ul li a {
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: normal;
+}
+ 
+ul.topnav ul li a:hover {
+    background-color:#999;
+    color:#FFF;
+}
+ 
+ul.topnav ul ul li  {
+    padding-left: 40px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:10px;
+}
+ 
+ul.topnav ul ul li a:hover {
+    background-color:#999;
+    color:#FFF;
+}
+ 
+ul.topnav span{
+    float:right;
+}
+
+p.zeroindent{
+	margin-left:0px;
+	text-align:left;
+}
+p.firstindent{
+	margin-left:20px;
+	text-align:left;
+}
+
+p.secondindent{
+	margin-left:30px;
+	text-align:left;
+}
+
+p.thirdindent{
+	margin-left:40px;
+	text-align:left;
+}
+
+p.fourthindent{
+	margin-left:50px;
+	text-align:left;
+}
+
+
+
+.editing {
+	float:right;
+	display:block;
+	
+}
+.editing a {
+	width:45px;
+	height:15px;
+	padding:3px;
+	text-align:center;
+	color:#000;
+}
+
+/* downloads page     */
+
+#downloads{
+	position:absolute;
+	top:20px;
+	left:100px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#downloads ul {
+	margin:15px;
+	
+}
+
+#downloads ul li {
+	font-size:30px;
+	font-weight:bold;
+	color:#999;
+	list-style-type: none;
+}
+
+#downloads ul li li {
+	list-style-type:disc;
+}
+
+#downloads ul li li a {
+	font-size:20px;
+	font-weight:normal;
+	color:#F93;
+	text-decoration:none;
+}
+
+#downloads ul li li a:hover {
+	color:#FFF;
+}
+
+/* videos page     */
+
+#videos{
+	position:absolute;
+	top:20px;
+	left:100px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.vthumbs {
+	float:left;
+	font-size:14px;
+	color:#FF9933;
+	margin:15px;
+	
+}
+
+.vtitles {
+	font-size:30px;
+	font-weight:bold;
+	color:#999;
+	list-style-type: none;
+}
+
+DIV#blanket2 {
+	display:none;
+	background-color:#111;
+	opacity:.5;
+	filter:alpha(opacity=50);
+	position:absolute;
+	z-index:480;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+}
+
+/* RCA expense page     */
+#edit_button {
+	position:absolute;
+	right:150px;
+	top:25px;
+	font-size:24px;
+}
+
+#edit_button a {
+	text-decoration:none;
+	color:#66CCFF;
+}
+
+#edit_button a:hover {
+	color:#66FF99;
+}
+
+#expense_table {
+	position:absolute;
+	left:80px;
+	top:120px;
+	font-size:16px;
+}
+
+.tablehead {
+	font-size:20px;
+	color:#F0F;
+	padding-bottom:10px;
+}
+
+.expensecontent {
+	padding-left:10px;
+}
+
+#expense_table a {
+	text-decoration:none;
+	color:#FF9933;
+}
+
+#expense_table a:hover {
+	color:#66CCFF;
+}
+
+#rca_top {
+	position:absolute;
+	right:90px;
+	top:25px;
+	padding:20px;
+	width:460px;
+	background-color:#333333;
+	border-color:#F0F;
+	border-style:solid;
+	border-width:thin;
+}
+
+#rca_table {
+	position:absolute;
+	left:80px;
+	top:200px;
+	font-size:16px;
+}
+
+#rca_table a {
+	text-decoration:none;
+	color:#FF9933;
+}
+
+#rca_table a:hover {
+	color:#66CCFF;
+}
+
+#enter_expense {
+	float: left;
+	margin-left:100px;
+	margin-top:60px;
+	background-color:#333333;
+	padding:20px;
+	border-color:#39F;
+	border-style:solid;
+	border-width:thin;
+}
+
+.etable_heading{
+	color:#0F3;
+	font-size:18px;
+}
+
+/* RCA expense page     */
