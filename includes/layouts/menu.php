@@ -66,10 +66,6 @@
 					?></div>
                     <div id="llmenu">
                    <?
-						echo '<a href="downloads.php">FALL TRAINING</a>';
-					?></div>
-                    <div id="llmenu">
-                   <?
 						echo '<a href="videos.php">OTHER RESOURCES</a>';
 					?></div>
                     <div id="llmenu">

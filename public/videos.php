@@ -11,25 +11,20 @@ include("../includes/layouts/menu.php");
 <div id="downloads">
     	
         <ul>
-            <li> FALL TRAINING 2013
+            <li> FALL TRAINING GENERAL
                 <ul>
-                    <li><a href="#" onclick="getnewview('video1')">CPS Video#1</a></li>
-					<li><a href="#" onclick="getnewview('video2')">CPS Video#2</a></li>
-					<li><a href="#" onclick="getnewview('video3')">CPS Video#3</a></li>
-					<li><a href="#" onclick="getnewview('video4')">CPS Video#4</a></li>
-					<li><a href="#" onclick="getnewview('video5')">CPS Video#5</a></li>
+                    <li><a href="pdfs/RCAManual.pdf">RCA Manual</a></li>
+                    <li><a href="pdfs/schedule.pdf">Fall Training Schedule</a></li>
+                    <li><a href="pdfs/Oschedule.pdf">Fall Orientation Schedule</a></li>
                 </ul>
-    		</li>
+            </li>
             <li> OTHER DOCUMENTS
             	<ul>
                 	<li><a href="pdfs/RCAIC.pdf">The RCA Information Compendium</a></li>
                     <li><a href="pdfs/conflictres.pdf">Conflict Resolution Sheet</a></li>
-                    <li><a href="pdfs/zeecheck.pdf">First Zee Meeting Checklist</a></li>
-                    <li><a href="pdfs/rcontract.pdf">Roommate Contract</a></li>
                     <li><a href="pdfs/pacecenter.pdf">What RCAs “Need-to-Know”: Connecting Zees to Service Opportunities</a></li>
                     <li><a href="pdfs/lgbtslides.pdf">LGBT Slides from 2014 fall Training</a></li>
                     <li><a href="pdfs/shawfaq.pdf">FAQ’s About Sexual Health and Wellness (SHAW) Services at McCosh</a></li>
-                    <li><a href="pdfs/fire2014.pdf">Fire Safety Presentation</a></li>
                 </ul>
             </li>
             <li> CORE GROUP CURRICULUM
