@@ -16,6 +16,7 @@ include("../includes/layouts/menu.php");
                     <li><a href="pdfs/RCAManual.pdf">RCA Manual</a></li>
                     <li><a href="pdfs/schedule.pdf">Fall Training Schedule</a></li>
                     <li><a href="pdfs/Oschedule.pdf">Fall Orientation Schedule</a></li>
+                    <li><a href="pdfs/zeecheck.pdf">First Zee Meeting Script</a></li>
                 </ul>
             </li>
             <li> OTHER DOCUMENTS
