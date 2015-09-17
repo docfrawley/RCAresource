@@ -548,7 +548,7 @@ if ($college=="") {$college = getdslcollege($dsluser);}
  </div>  <!---- <div id="workarearelative">  --->
  </div> <!-- <div id="workarea"> -->
 
-<div id="oncallpdf"><a href="pdfs/2014manual.pdf">PDF OF MANUAL</a></div> 
+<div id="oncallpdf"><a href="pdfs/RCAManual.pdf">PDF OF MANUAL</a></div> 
 <? 
 
 }

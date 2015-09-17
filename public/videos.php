@@ -17,13 +17,11 @@ include("../includes/layouts/menu.php");
                     <li><a href="pdfs/schedule.pdf">Fall Training Schedule</a></li>
                     <li><a href="pdfs/Oschedule.pdf">Fall Orientation Schedule</a></li>
                     <li><a href="pdfs/zeecheck.pdf">First Zee Meeting Script</a></li>
-                    <li><a href="pdfs/alcohol1.pdf">Alcohol and the Princeton Social Scene Workshop</a></li>
-                    <li><a href="pdfs/alcohol2.pdf">Alcohol Quiz RCA Answer Guide</a></li>
-                    <li><a href="pdfs/hunt.pdf">Scavenger Hunt Info</a></li>
                 </ul>
             </li>
             <li> OTHER DOCUMENTS
             	<ul>
+                    <li><a href="pdfs/sbideas.pdf">Helpful Study Break Ideas</a></li>
                 	<li><a href="pdfs/RCAIC.pdf">The RCA Information Compendium</a></li>
                     <li><a href="pdfs/conflictres.pdf">Conflict Resolution Sheet</a></li>
                     <li><a href="pdfs/pacecenter.pdf">What RCAs “Need-to-Know”: Connecting Zees to Service Opportunities</a></li>
