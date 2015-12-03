@@ -9,7 +9,7 @@ if ($casnetid) {
 
 	$_SESSION["casnetid"] = phpCAS::getUser();
 }
-$dslsrock = array ("mfrawley", "mellisat", "amyham", "momo", "aandres", "molin", "ak19");
+$dslsrock = array ("mfrawley", "mellisat", "amyham", "momo", "aandres", "molin", "ak19", "rmasseng");
 $dsl = (in_array($casnetid, $dslsrock));				
 
 $sql = "SELECT * FROM rca WHERE netid = '".$casnetid."'";
